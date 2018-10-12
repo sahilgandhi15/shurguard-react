@@ -1,0 +1,39 @@
+.shurguardLogo {
+  font-size: 45px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.headerlogo {
+  height: 50px;
+}
+
+.main {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.section {
+  color: white;
+  opacity: .6;
+  position: fixed;
+  width: 100%;
+  font-size: 25px;
+  z-index: 1000;
+}
+
+li {
+  cursor: pointer;
+  text-align: center;
+}
+
+ul::before li {
+  border-bottom: 1px solid white;
+}
