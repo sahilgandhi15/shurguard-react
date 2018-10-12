@@ -1,13 +1,8 @@
 import React from 'react';
-
+import { MainHeader } from './main-header'
 
 export class HomePage extends React.Component {
   render() {
-    return React.createElement(
-      'button', {
-        color: 'Red'
-      },
-      'Click Me'
-    )
+    return <MainHeader imagePath='./assets/headerImage.jpg'/>
   }
 }
