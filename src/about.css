@@ -1,0 +1,13 @@
+.section {
+  background-color: lightgray;
+}
+
+.about {
+  /* padding: 10px 300px; */
+  font-size: larger;
+  padding: 20px 20px;
+}
+
+.heading {
+  text-align: center;
+}

@@ -8,7 +8,7 @@ export class NavBar extends React.Component {
         <div className="container">
           <div className="navbar-header">
             <span className="shurguardLogo">
-              <img className="headerlogo" src="./assets/logo.jpg"/> Shurguard Self Storage
+              <img className="headerlogo" src={window.location.origin + '/logo.jpg'}/> Shurguard Self Storage
             </span>
             <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span className="sr-only">Toggle navigation</span>

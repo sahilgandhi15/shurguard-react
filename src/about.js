@@ -2,11 +2,11 @@ import React from 'react';
 
 export class About extends React.Component {
 render() {
-    return <div class="section">
-      <h1 class="heading">
+    return <div className="section">
+      <h1 className="heading">
         Welcome to Shurguard Self Storage
       </h1>
-      <div class="about">
+      <div className="about">
         Conveniently located at 1660 Matheson Blvd in Mississauga, Shurguard Self-Storage offers you a choice of 248 spacious
         public storage units. Each of these storage spaces is individually alarmed and completely secure, thus making sure your
         belongings are always safe. Climate control within the storage units means that even your temperature-sensitive items
